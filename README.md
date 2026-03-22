@@ -12,9 +12,9 @@ Tech Stack
 
 Project Structure :-
 
-01_db_setup_and_data.sql: Schema definition and sample data insertion.
+* 01_db_setup_and_data.sql: Schema definition and sample data insertion.
 
-02_analytical_queries.sql: Business logic and data analysis queries.
+* 02_analytical_queries.sql: Business logic and data analysis queries.
 
 Key Features Implemented :-
 
