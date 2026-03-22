@@ -1,30 +1,30 @@
 # SQL-Bookstore-Analysis
 
 Bookstore Database Analysis (SQL)
-A comprehensive SQL project focused on analyzing sales, customer behavior, and inventory management for an online bookstore. This project demonstrates intermediate to advanced SQL skills including multi-table joins, data aggregation, and conditional filtering.
+A professional SQL project focusing on sales, customer insights, and inventory management using PostgreSQL.
 
-Project Overview
-The goal of this project was to transform raw bookstore data into actionable business insights. I designed a relational database with three core tables and performed various analytical queries to solve real-world business problems.
-
-Tech Stack & Tools
-Database Engine: PostgreSQL
-
-Management Tool: pgAdmin 4 / DBeaver
-
+Tech Stack
+Database: PostgreSQL
+Tools: pgAdmin 4 / DBeaver
 Language: SQL
 
-Repository Structure
-01_db_setup_and_data.sql: Contains the complete schema definition (CREATE TABLE) and the sample dataset (INSERT INTO) for Books, Customers, and Orders.
-02_analytical_queries.sql: Features 20+ business queries ranging from basic data retrieval to complex aggregations.
+Project Structure
+01_db_setup_and_data.sql: Schema definition and sample data insertion.
 
-Key SQL Features Implemented
-Complex Joins: Combined data from multiple tables to map customer purchases to specific book genres.
-Aggregations & Grouping: Used SUM(), AVG(), and COUNT() with GROUP BY to calculate total revenue and sales volume.
-Advanced Filtering: Applied HAVING clauses for post-aggregation filtering and LIMIT for top-performer analysis.
-Data Integrity: Used COALESCE to handle null values and maintain accurate stock reporting.
-Business Insights Extracted
-Revenue Analysis: Calculated total revenue generated and identified high-value orders (over 700).
-Customer Behavior: Identified "Top Spenders" who contributed significantly to sales (purchases over 900).
-Inventory Tracking: Monitored stock levels to identify books needing restock and calculated remaining inventory post-sales.
+02_analytical_queries.sql: Business logic and data analysis queries.
 
-Genre Performance: Analyzed which genres (Finance, Fiction, etc.) are driving the most volume.
+Key Features Implemented
+Relational Joins: Mapping customers to order history and book genres.
+
+Aggregations: Calculating revenue and sales volume using SUM, AVG, and COUNT.
+
+Advanced Filters: Using HAVING and LIMIT for top-performance reporting.
+
+Data Integrity: Handling null values with COALESCE for accurate stock tracking.
+
+Business Insights
+Top Spenders: Identified customers with high lifetime value (Spending > 900).
+
+Inventory Management: Tracked remaining stock and identified reorder points.
+
+Genre Performance: Analyzed sales trends across different book categories.
