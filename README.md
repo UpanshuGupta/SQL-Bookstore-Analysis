@@ -4,18 +4,18 @@ A professional SQL project focused on analyzing sales trends, customer behavior,
 Tech Stack
 * Database: PostgreSQL
 
-* Tool: pgAdmin 4 / DBeaver
+* Tool: pgAdmin 4
 
 * Language: SQL
 
-Database Schema (ER Logic)
+Database Schema
 * The project consists of three interconnected tables:
 
 * Books: Details about titles, authors, genres, and pricing.
 
 * Customers: Information about customer locations and identities.
 
-Orders: Transactional data linking customers to books.
+* Orders: Transactional data linking customers to books.
 
 Repository Structure
 * 01_db_setup_and_data.sql: Database schema definition and sample data insertion.
