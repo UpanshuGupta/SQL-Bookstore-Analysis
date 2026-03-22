@@ -1,35 +1,46 @@
-# SQL-Bookstore-Analysis
-
 Bookstore Database Analysis (SQL)
-A professional SQL project focusing on sales, customer insights, and inventory management using PostgreSQL.
+A professional SQL project focused on analyzing sales trends, customer behavior, and inventory management for an online bookstore using PostgreSQL.
 
 Tech Stack
 * Database: PostgreSQL
 
-* Tools: pgAdmin 4 / DBeaver
+* Tool: pgAdmin 4 / DBeaver
 
 * Language: SQL
 
-Project Structure :-
+Database Schema (ER Logic)
+* The project consists of three interconnected tables:
 
-* 01_db_setup_and_data.sql: Schema definition and sample data insertion.
+* Books: Details about titles, authors, genres, and pricing.
 
-* 02_analytical_queries.sql: Business logic and data analysis queries.
+* Customers: Information about customer locations and identities.
 
-Key Features Implemented :-
+Orders: Transactional data linking customers to books.
 
-* Relational Joins: Mapping customers to order history and book genres.
+Repository Structure
+* 01_db_setup_and_data.sql: Database schema definition and sample data insertion.
 
-* Aggregations: Calculating revenue and sales volume using SUM, AVG, and COUNT.
+* 02_analytical_queries.sql: Business logic and data insights queries.
 
-* Advanced Filters: Using HAVING and LIMIT for top-performance reporting.
+Key Features Implemented
+* Relational Joins: Successfully linked Customers, Books, and Orders to map purchase history.
 
-* Data Integrity: Handling null values with COALESCE for accurate stock tracking.
+* Data Aggregation: Used SUM(), AVG(), and COUNT() to calculate revenue and sales performance.
 
-Business Insights :-
+* Advanced Filters: Applied HAVING and LIMIT to identify top performers and high-value transactions.
 
-* Top Spenders: Identified customers with high lifetime value (Spending > 900).
+* Inventory Management: Used COALESCE to handle null values and track remaining stock accurately.
 
-* Inventory Management: Tracked remaining stock and identified reorder points.
+Business Questions Solved
+* Which author has the highest total book sales?
 
-* Genre Performance: Analyzed sales trends across different book categories.
+* Who are the "Top Spenders" with a lifetime value over 900?
+
+* Which genres are driving the most revenue for the store?
+
+* What is the current stock remaining after all orders are processed?
+
+How to Run
+* Execute 01_db_setup_and_data.sql to build the database environment.
+
+* Run 02_analytical_queries.sql to generate analytical reports.
