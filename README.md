@@ -4,9 +4,11 @@ Bookstore Database Analysis (SQL)
 A professional SQL project focusing on sales, customer insights, and inventory management using PostgreSQL.
 
 Tech Stack
-Database: PostgreSQL
-Tools: pgAdmin 4 / DBeaver
-Language: SQL
+* Database: PostgreSQL
+
+* Tools: pgAdmin 4 / DBeaver
+
+* Language: SQL
 
 Project Structure:-
 01_db_setup_and_data.sql: Schema definition and sample data insertion.
